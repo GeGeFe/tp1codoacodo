@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0.5rem;
 }
 
 /* Esto hace que las unidades rem trabajen coherentemente 62.5% es 10 px */
@@ -15,6 +15,11 @@ html {
                          "pie pie pie";
     gap: 0.5rem;
     font-size: 3rem;
+}
+
+h1{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .flex-container {

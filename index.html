@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="estilos.css">
     <link rel="shorcut icon" href="assets/img/logo página.jpg">
+    <script src="js/all.js"></script>
 </head>
 
 <body>
@@ -16,10 +17,9 @@
         <header class="cabecera">
             <nav class="flex-container">
                 <img class="logo" src="assets/img/logo página.jpg" alt="Un precioso tero.">
-                <h1 class="titulo"> ¡¡¡Aguante el software libre!!! </h1>
+                <h1 class="titulo"> <i class="fas fa-heart"></i> Aguante el software libre <i class="fas fa-heart"></i> </h1>
                 <ul>
                     <li><a href="">¿Qué es el software libre?</a></li>
-                    <li><a href="">Articulos</a></li>
                     <li><a href="">Contacto</a></li>
                 </ul>
             </nav>
@@ -34,7 +34,7 @@
                 molestiae aspernatur, ad, vel debitis veniam, eum laudantium incidunt provident. Sapiente quidem
                 nesciunt quas?
             </section>
-            <hr>
+            <br><hr>
             <section id="seccion02">
                 <h1> Titulo de la sección 02 </h1>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur reprehenderit facere
@@ -42,37 +42,40 @@
                 Repudiandae fugiat exercitationem laudantium eum?
 
             </section>
-            <hr>
+            <br><hr>
             <section id="seccion03">
-                <h1> Titulo de la sección 03 </h1>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur reprehenderit facere
-                beatae, ab repellat incidunt at ratione, alias ex adipisci asperiores, cumque accusantium quibusdam.
-                Repudiandae fugiat exercitationem laudantium eum?
-
+                <h1> El poder del SVG </h1>
+                <img src="assets/img/reloj.svg" alt="Un reloj analógico (de agujas)." height="100" width="100">
+                <br>
+                Y para editar este formato nada mejor que Inkscape: <a target="_blank" href="https://inkscape.org/">https://inkscape.org/</a>
             </section>
-            <hr>
+            <br><hr>
             <section id="seccion04">
                 <h1> Big Linux: Una distro brasilera muy interesante </h1>
                 <iframe src="https://www.biglinux.com.br/" width="100%" height="500">
                 </iframe>
+                Enlace a su página: <a target="_blank" href="https://www.biglinux.com.br/">https://www.biglinux.com.br/</a>.
             </section>
-            <hr>
+            <br><hr>
             <section id="seccion05">
                 <h1> P5.js: Un processing web (Lenguaje de programación para artistas en versión web) </h1>
-                <br>
                 <script src="js/p5.js"></script>
                 <iframe src="js/sketch.js">
                 </iframe>
                 <div class="cajita">
                     <script src="js/sketch.js"></script>
                 </div>
-                <p>Más información en su página: <a href="https://processing.org">https://processing.org</a>.</p>
+                <p>Más información en su página: <a target="_blank"
+                        href="https://processing.org">https://processing.org</a>.</p>
             </section>
         </main>
         <aside class="costadito">
             <nav>
                 <h1>Indice:</h1>
                 <ul>
+                    <li> <a href="#seccion01"> seccion01 </a> </li>
+                    <li> <a href="#seccion02"> Seccion02 </a> </li>
+                    <li> <a href="#seccion03"> Los SVG </a> </li>
                     <li> <a href="#seccion04"> Big Linux </a> </li>
                     <li> <a href="#seccion05"> P5.js </a> </li>
                 </ul>
@@ -85,7 +88,11 @@
             Un coso 2
         </div>
         <footer class="pie">
-            El pie de página.
+            <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/4.0/"><img
+                    alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>Esta
+            obra está bajo una <a rel="license" target="_blank"
+                href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0
+                Internacional</a>.
         </footer>
     </div>
 </body>
