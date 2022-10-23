@@ -20,6 +20,12 @@ html {
         gap: 0.5rem;
         font-size: 2rem;
     }
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-container>ul{
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 650px) and (max-width: 860px){
@@ -32,6 +38,9 @@ html {
             "pie pie";
         gap: 0.5rem;
         font-size: 3rem;
+    }
+    .flex-container{
+        flex-direction: column;
     }
 }
 
@@ -56,13 +65,12 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10rem;
+/*    height: 10rem; */
 }
 
 .flex-container>ul {
     display: flex;
     list-style-type: none;
-    /* Para sacar el punto de la lista desordenada */
     font-size: 2rem;
 }
 
@@ -174,6 +182,40 @@ a:hover {
         left: 0px;
         top: 0px;
     }
+}
+
+
+#iframeseccion02 {
+    position: relative;
+    /* Para 16/9 usar 56.25 y para 4/3 75% */
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 3rem;
+}
+#iframeseccion02 iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#iframeseccion04 {
+    position: relative;
+    /* Para 16/9 usar 56.25 y para 4/3 75% */
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 3rem;
+}
+
+#iframeseccion04 iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #seccion05 p {
