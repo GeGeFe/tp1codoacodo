@@ -87,6 +87,39 @@
                         href="https://processing.org">https://processing.org</a>.
                 </p>
             </section>
+            <section id="contacto">
+                <fieldset>
+                <legend>¡Envianos tu consulta!</legend> 
+                    <form action="" method="post" id="consulta">
+                                      
+                        <div>
+                            <label for="Nombre">Nombre: </label>
+                            <input class="nombre" type="text" name="nombre" id="nombre" placeholder="Juan"><br><br>
+                        </div>
+                        <div>
+                            <label for="Apellido">Apellido: </label>
+                            <input type="text" class="apellido" name="apellido" id="apellido" placeholder="Perez"><br><br>
+                        </div>
+                        <div>
+                            <label for="telefono">Teléfono: </label>
+                            <input type="tel" class="telefono" name="telefono" id="telefono" placeholder="1123456789"><br><br>
+                        </div>
+                        <div>
+                            <label for="mail">Dirección de correo electrónico: </label>
+                            <input type="email" class="mail" name="mail" id="mail" placeholder="juanperez@ejemplo.com"><br><br>
+                        </div>
+                        <div>    
+                            <label for="consulta">Escribí tu consulta:<br> <textarea name="texto" class="texto" id="texto" rows="5" cols="60">Hola...</textarea> </label>
+                        </div>
+                            <br><br>
+                        <input type="submit" onclick='return EnviarFormulario()' value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </form>
+                        <div id="warnings"></div>                                    
+                        <script src="js/form.js"></script>
+                </fieldset>   
+                
+            </section>
         </main>
         <aside class="costadito">
             <nav>
