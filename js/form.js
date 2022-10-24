@@ -5,7 +5,7 @@ var telefono = document.getElementById("telefono");
 var texto = document.getElementById("texto");
 var warnings = document.getElementById("warnings");
 
-function enviarFormulario(){
+function EnviarFormulario(){
     console.log("consulta enviada");
     var mensajeError = [];
     if(nombre.value === null || nombre.value === ""){
