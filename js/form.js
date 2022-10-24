@@ -27,4 +27,5 @@ function EnviarFormulario(){
         error.innerHTML = mensajeError.join(",");
     }
     return false;
+    print(error);
 }
