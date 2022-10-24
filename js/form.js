@@ -18,26 +18,30 @@ function EnviarFormulario(){
         mensajeError.push("ingresa un apellido");
         enviar = false;
         console.log(mensajeError);
+        print(mensajeError);
         
     }
     if(mail.value === null || mail.value === ""){
         mensajeError.push("ingresa un mail");
         enviar = false;
         console.log(mensajeError);
+        print(mensajeError);
     }
     if(telefono.value === null || telefono.value === ""){
         mensajeError.push("ingresa un telefono");
         enviar = false;
         console.log(mensajeError);
+        print(mensajeError);
     }
     if(texto.value === null || texto.value === ""){
         mensajeError.push("ingresa tu consulta");
         enviar = false;
         console.log(mensajeError);
+        print(mensajeError);
     }
     
        error.innerHTML = mensajeError.join(",");
     
-    return false;
-    print(error);
+    return enviar;
+   
 }
