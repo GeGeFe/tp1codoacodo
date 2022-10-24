@@ -3,7 +3,6 @@ var apellido = document.getElementById("apellido");
 var mail = document.getElementById("mail");
 var telefono = document.getElementById("telefono");
 var texto = document.getElementById("texto");
-var warnings = document.getElementById("warnings");
 
 function EnviarFormulario(){
     console.log("consulta enviada");
