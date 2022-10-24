@@ -8,24 +8,36 @@ function EnviarFormulario(){
     console.log("consulta enviada");
     var mensajeError = [];
     var error = [];
+    var enviar = true;
     if(nombre.value === null || nombre.value === ""){
         mensajeError.push("ingresa un nombre");
+        enviar = false;
+        console.log(mensajeError);
     }
     if(apellido.value === null || apellido.value === ""){
         mensajeError.push("ingresa un apellido");
+        enviar = false;
+        console.log(mensajeError);
+        
     }
     if(mail.value === null || mail.value === ""){
         mensajeError.push("ingresa un mail");
+        enviar = false;
+        console.log(mensajeError);
     }
     if(telefono.value === null || telefono.value === ""){
         mensajeError.push("ingresa un telefono");
+        enviar = false;
+        console.log(mensajeError);
     }
     if(texto.value === null || texto.value === ""){
         mensajeError.push("ingresa tu consulta");
+        enviar = false;
+        console.log(mensajeError);
     }
-    else{
-        error.innerHTML = mensajeError.join(",");
-    }
+    
+       error.innerHTML = mensajeError.join(",");
+    
     return false;
     print(error);
 }
