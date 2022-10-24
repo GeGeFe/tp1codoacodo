@@ -8,6 +8,7 @@ var warnings = document.getElementById("warnings");
 function EnviarFormulario(){
     console.log("consulta enviada");
     var mensajeError = [];
+    var error = [];
     if(nombre.value === null || nombre.value === ""){
         mensajeError.push("ingresa un nombre");
     }
@@ -23,6 +24,8 @@ function EnviarFormulario(){
     if(texto.value === null || texto.value === ""){
         mensajeError.push("ingresa tu consulta");
     }
+    else{
         error.innerHTML = mensajeError.join(",");
+    }
     return false;
 }
