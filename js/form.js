@@ -1,10 +1,10 @@
-const nombre = document.getElementById('nombre');
-const apellido = document.getElementById('apellido');
-const mail = document.getElementById('mail');
-const telefono = document.getElementById('telefono');
-const texto = document.getElementById('texto');
-const form = document.getElementById('consulta');
-const errorElement = document.getElementById('error');
+const nombre = document.getElementById('nombre')
+const apellido = document.getElementById('apellido')
+const mail = document.getElementById('mail')
+const telefono = document.getElementById('telefono')
+const texto = document.getElementById('texto')
+const form = document.getElementById('consulta')
+const errorElement = document.getElementById('error')
 
 form.addEventListener('submit', (e) => {
   let messages = []
