@@ -8,16 +8,16 @@ const errorElement = document.getElementById('error')
 
 form.addEventListener('submit', (e) => {
   let messages = []
-  if (nombre.value === '' || nombre.value == null || nombre.value.lenght <2) {
+  if (nombre.value === '' || nombre.value == null) {
     messages.push('Escriba su nombre')
   }
-  if (apellido.value === '' || apellido.value == null || apellido.value.lenght <2) {
+  if (apellido.value === '' || apellido.value == null) {
     messages.push('Escriba su apellido')
   }  
   if (mail.value === '' || mail.value == null) {
     messages.push('Ingrese un mail válido')
   }  
-  if (telefono.value.lenght <10 || telefono.value.lenght >10) {
+  if (telefono.value === '' || telefono.value == null) {
     messages.push('Teléfono inválido')
   }  
   if (texto.value === '' || texto.value == null) {
