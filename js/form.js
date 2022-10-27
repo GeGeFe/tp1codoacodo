@@ -5,11 +5,7 @@ const telefono = document.getElementById('telefono')
 const texto = document.getElementById('texto')
 const form = document.getElementById('consulta')
 const errorElement = document.getElementById('error')
-const cons = document.getElementById('cons')
 
-function myFunction() {
-  document.getElementById("cons").innerHTML = cons;
-}
 
 form.addEventListener('submit', (e) => {
   let messages = []
