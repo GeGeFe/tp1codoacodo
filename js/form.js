@@ -18,9 +18,6 @@ form.addEventListener('submit', (e) => {
   if (mail.value === '' || mail.value == null) {
     messages.push('Ingrese un mail válido')
   }  
-  if (telefono.value === '' || telefono.value == null) {
-    messages.push('Teléfono inválido')
-  }  
   if (texto.value === '' || texto.value == null) {
     messages.push('Ingrese su consulta')
   }  
