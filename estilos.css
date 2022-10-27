@@ -223,15 +223,6 @@ a:hover {
     text-align: center;
 }
 
-cons {
-    opacity: 1;
-    max-height: 150px;
-    transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
-}
-#checkbox:checked ~ fieldset cons {
-    opacity: 0;
-    max-height: 0;
-}
 
 
 
