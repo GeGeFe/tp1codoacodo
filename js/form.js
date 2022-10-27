@@ -17,7 +17,7 @@ form.addEventListener('submit', (e) => {
   if (mail.value === '' || mail.value == null) {
     messages.push('Ingrese un mail válido')
   }  
-  if (isNaN(telefono)) {
+  if (isNaN(telefono) || telefono<1000000000) {
     messages.push('Teléfono inválido')
   }  
   if (texto.value === '' || texto.value == null) {
