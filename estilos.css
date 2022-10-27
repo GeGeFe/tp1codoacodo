@@ -184,10 +184,9 @@ a:hover {
     }
 }
 
-
+/*
 #iframeseccion02 {
     position: relative;
-    /* Para 16/9 usar 56.25 y para 4/3 75% */
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
@@ -204,7 +203,6 @@ a:hover {
 
 #iframeseccion04 {
     position: relative;
-    /* Para 16/9 usar 56.25 y para 4/3 75% */
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
@@ -221,7 +219,6 @@ a:hover {
 
 .iframeseccion05 {
     position: relative;
-    /* Para 16/9 usar 56.25 y para 4/3 75% */
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
@@ -229,6 +226,23 @@ a:hover {
 }
 
 .iframeseccion05 iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.paraiframe {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 3rem;
+}
+
+.paraiframe iframe {
     position: absolute;
     top:0;
     left: 0;
