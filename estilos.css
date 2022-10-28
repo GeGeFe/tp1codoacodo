@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'MusiQwik Font';
+    src: url("assets/Musiqwik-rvL8.ttf")
+    format("truetype");
+}
+
 * {
     margin: 0.5rem;
 }
@@ -20,15 +26,17 @@ html {
         gap: 0.5rem;
         font-size: 2rem;
     }
-    .flex-container{
+
+    .flex-container {
         flex-direction: column;
     }
-    .flex-container>ul{
+
+    .flex-container>ul {
         flex-direction: column;
     }
 }
 
-@media (min-width: 650px) and (max-width: 860px){
+@media (min-width: 650px) and (max-width: 860px) {
     .contenedor {
         display: grid;
         grid-template-areas: "cabecera cabecera"
@@ -39,7 +47,8 @@ html {
         gap: 0.5rem;
         font-size: 3rem;
     }
-    .flex-container{
+
+    .flex-container {
         flex-direction: column;
     }
 }
@@ -65,7 +74,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-/*    height: 10rem; */
+    /*    height: 10rem; */
 }
 
 .flex-container>ul {
@@ -184,56 +193,6 @@ a:hover {
     }
 }
 
-/*
-#iframeseccion02 {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    margin: 3rem;
-}
-
-#iframeseccion02 iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#iframeseccion04 {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    margin: 3rem;
-}
-
-#iframeseccion04 iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.iframeseccion05 {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    margin: 3rem;
-}
-
-.iframeseccion05 iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-*/
-
 .paraiframe {
     position: relative;
     padding-bottom: 56.25%;
@@ -244,7 +203,7 @@ a:hover {
 
 .paraiframe iframe {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -255,4 +214,8 @@ a:hover {
     text-align: center;
 }
 
-
+#ejemplofuente {
+    font-family: 'MusiQwik Font';
+    font-size: larger;
+    text-align: center;
+}
