@@ -29,6 +29,9 @@ form.addEventListener('submit', (e) => {
     
  function mostrar(){
   document.getElementById('contacto').style.display = 'block';
-}   
+}  
+function show(){
+  document.getElementById('queEs').style.display = 'block';
+}  
     
     
