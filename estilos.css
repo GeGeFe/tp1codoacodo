@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'MusiQwik Font';
-    src: url("assets/Musiqwik-rvL8.ttf")
-    format("truetype");
+    src: url("assets/Musiqwik-rvL8.ttf") format("truetype");
 }
 
 * {
@@ -11,6 +10,7 @@
 /* Esto hace que las unidades rem trabajen coherentemente 62.5% es 10 px */
 html {
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -224,8 +224,16 @@ a:hover {
     display: none;
 }
 
-.queEs{
+.queEs {
     display: none;
 }
-    
-    
+
+.btn {
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.btn-success { background-color: green; }
+
+.btn-danger { background-color: red; }
